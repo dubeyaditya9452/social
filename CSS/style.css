@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+   
+}
+nav ul{
+    float: right;
+    list-style-type:none;
+    padding-right: 50px;
+}
+nav ul li{
+   display: inline-block;
+   line-height: 80px;
+   
+}
+.logo{
+    color: white;
+    line-height: 80px;
+    margin-left: 20px;
+    font-size: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 8px 10px;
+    font-size: 23px;
+}
+nav ul li a:hover{
+color: darkgray;
+}
+.content{
+    color: white;
+    text-align: center;
+}
+.content h2{
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 140px;
+    font-size: 70px;
+}
+.content p{
+    font-size: 20px;
+}
+.btn{
+    padding:15px;
+    border: 1px solid;
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.about{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.row{
+    display: flex;
+}
+.col{
+    display: inline;
+    padding-left: 200px;
+}
+.col p{
+    font-size: 20px;
+}
+.col1{
+    display: inline;
+    padding-left: 100px;
+    margin-top: px;
+}
+.about h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+.service{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    align-items: center;
+    
+}
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+   border: 1px solid rgb(199, 198, 198);
+   height: 290px;
+   width: 270px;
+   border-radius: 20px;
+   background: rgb(240, 238, 238);
+}
+.box-image img{
+   padding-top: 20px;
+   background: blur;
+   
+}
+.box-image h3{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.service h2{
+  padding-bottom: 30px;
+  font-size: 40px;
+}
+.box-image p{
+    font-size: 18px;
+}
+.work {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.work h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.work .box-container .box{
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0 0rem 1rem rgba(0,0,0,.1);
+    border: 1rem solid #fff;
+    border-radius: .5rem;
+    flex: 1 1 15rem;
+    height: 12rem;
+    position: relative;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+.work .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.work .box-container .box .cont{
+    position: absolute;
+    top:-100;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(0,0,0,.7);
+    text-align: center;
+    padding-top: 50px;
+    transition: 0.5s all ease-in-out
+}
+.work .box-container .box:hover .cont{
+    top: 0;
+}
+.work .box-container .box .cont{
+    color: white;
+}
+.work .box-container .box .cont h3{
+    font-size: 25px;
+    color: orange;
+    text-align: center;
+}
+.contact{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background: rgb(244, 244, 250);
+}
+.contact h2{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+form input{
+    
+    width: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    color: black;
+}
+form textarea{
+    width: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    color: black;
+}
+button{
+    margin-right: 420px;
+    font-size: 20px;
+    padding: 8px;
+}
+footer{
+    padding-top: 30px;
+    background:rgb(236, 236, 247);
+    text-align: center;
+    padding-bottom: 40px;
+}
+footer a{
+    padding-right: 20px;
+}
+footer i{
+    font-size: 23px;
+}
+.faq{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.faq h2{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.faq-item{
+    text-align: center;
+}
+.faq-item h3{
+    cursor: pointer;
+    color:#333;
+    padding-bottom:30px;
+    
+}
+.faq-item p{
+    display: none;
+    color: black;
+    padding-top:5px;
+    padding-bottom: 30px;
+    background-color:rgb(209, 227, 233);
+    width:40%;
+    height: 10vh;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 400px;
+}
+.faq-item.active p{
+    display: block;
+}
