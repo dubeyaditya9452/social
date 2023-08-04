@@ -302,12 +302,12 @@ footer i{
     nav ul li{
         display: block;
         text-align: center;
-        line-height: 45px;
+        line-height: 80px;
         
     }
     nav ul li  a{
         color:white;
-        font-size: 25px;
+        font-size: 30px;
     }
     nav ul .btn{
         margin-left: 400px;
@@ -318,6 +318,10 @@ footer i{
     }
 }
 @media (max-width:600px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
     header{
         width: 100%;
     }
@@ -364,10 +368,10 @@ footer i{
     width: 100%;
    }
    .box-image img{
-    height: 150px;
+    height: 130px;
    }
    .box-image h3{
-    font-size: 29px;
+    font-size: 25px;
    }
    .box-image p{
     font-size: 20px;
@@ -408,13 +412,15 @@ footer i{
    form input{
     height: 50px;
     font-size: 30px;
+    width: 400px;
    }
    form textarea{
     font-size: 30px;
+    width: 400px;
    }
    form button{
     font-size: 30px;
-    margin-left: 30px;
+    margin-left: 80px;
    }
    footer{
     width: 100%;
